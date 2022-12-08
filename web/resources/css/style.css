@@ -1,0 +1,217 @@
+/*
+    Created on : 9 de nov de 2022, 12:23:43
+    Author     : RaafaPadilha
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #6B6BBF;
+    color: #FFF;
+    font-weight: 600;
+    padding: 0 10vw;
+}
+
+header a {
+    color: #FFF;
+}
+
+.logo > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo > a > img {
+    height: 60px;
+}
+
+.logo > a > p {
+    font-size: 40px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar a {
+    font-size: 25px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.title-page {
+    padding: 2% 10%;
+    color: #6B6BBF;
+}
+
+.informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 10%;
+}
+
+.informations-box {
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    background-color: #6B6BBF;
+    border-radius: 10px;
+}
+
+.informations-box-title {
+    padding: 20px 0;
+}
+
+.informations-box-title > p {
+    font-size: 30px;
+}
+
+.informations-box-value {
+    padding: 20px 0;
+}
+
+.informations-box-value > p {
+    font-size: 40px;
+}
+
+.listing-box {
+    height: 500px;
+    padding: 0 10%;
+    overflow-y: auto;
+}
+
+.options-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 100px;
+    padding: 1% 10%;
+}
+
+.options-box > a {
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: #6B6BBF;
+    color: white;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6B6BBF;
+    color: white;
+}
+
+td a {
+    display: inline-block;
+}
+
+.table-action-button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.yellow-button {
+    background-color: #E3D452;
+    color: #000;
+}
+
+.red-button {
+    background-color: #D43740;
+    color: #FFF;
+}
+
+.form-box {
+    padding: 0 10%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+input, select {
+    background-color: #FFF;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: solid 1px #000;
+}
+
+input[type="submit"] {
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.form-grid-three-columns {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.form-grid-full-width {
+    grid-column: 1 / 3;
+}
+
+.form-register-button {
+    background-color: #70BF58;
+    color: #FFF;
+}
+
+.form-update-button {
+    background-color: #E3D452;
+    color: #000;
+}
+
+.form-delete-button {
+    background-color: #D43740;
+    color: #FFF;
+    margin-top: 20px;
+}
